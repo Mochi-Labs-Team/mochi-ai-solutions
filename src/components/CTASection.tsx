@@ -18,8 +18,11 @@ const CTASection = () => {
               size="lg"
               variant="secondary"
               className="font-display font-semibold text-base px-8 gap-2"
+              asChild
             >
-              Book Your Free Audit <ArrowRight className="h-4 w-4" />
+              <a href="mailto:team@mochiops.com?subject=Free%20Automation%20Audit%20Request">
+                Book Your Free Audit <ArrowRight className="h-4 w-4" />
+              </a>
             </Button>
           </div>
         </div>

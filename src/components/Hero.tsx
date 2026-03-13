@@ -27,12 +27,20 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center mb-16">
-          <Button size="lg" className="font-display font-semibold text-base px-8 gap-2">
-            Book a Free Automation Audit <ArrowRight className="h-4 w-4" />
+          <Button size="lg" className="font-display font-semibold text-base px-8 gap-2" asChild>
+            <a href="mailto:team@mochiops.com?subject=Free%20Automation%20Audit%20Request">
+              Book a Free Automation Audit <ArrowRight className="h-4 w-4" />
+            </a>
           </Button>
-          <Button size="lg" variant="outline" className="font-display font-semibold text-base px-8">
-            See How It Works
+          <Button size="lg" variant="outline" className="font-display font-semibold text-base px-8" asChild>
+            <a href="#how-it-works">See How It Works</a>
           </Button>
+        </div>
+
+        {/* Trusted by */}
+        <div className="mb-12">
+          <p className="text-xs uppercase tracking-widest text-muted-foreground font-medium mb-3">Trusted by</p>
+          <p className="text-sm font-medium text-foreground">Sharkey's Cuts for Kids</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

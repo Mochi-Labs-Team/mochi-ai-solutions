@@ -22,8 +22,10 @@ const Navbar = () => {
             Solutions
           </a>
         </div>
-        <Button size="sm" className="font-display font-semibold">
-          Book a Free Audit
+        <Button size="sm" className="font-display font-semibold" asChild>
+          <a href="mailto:team@mochiops.com?subject=Free%20Automation%20Audit%20Request">
+            Book a Free Audit
+          </a>
         </Button>
       </div>
     </nav>

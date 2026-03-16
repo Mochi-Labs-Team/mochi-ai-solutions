@@ -40,7 +40,7 @@ const Hero = () => {
         {/* Trusted by */}
         <div className="mb-12">
           <p className="text-xs uppercase tracking-widest text-muted-foreground font-medium mb-3">Trusted by</p>
-          <p className="text-sm font-medium text-foreground">Sharkey's Cuts for Kids</p>
+          <p className="text-sm font-medium text-foreground">Sharkey's Cuts for Kids · AnQ Auto Repair · Great Lakes Builders</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

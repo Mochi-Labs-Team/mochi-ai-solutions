@@ -28,7 +28,7 @@ const Hero = () => {
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center mb-16">
           <Button size="lg" className="font-display font-semibold text-base px-8 gap-2" asChild>
-            <a href="https://cal.com/mochi-labs">
+            <a href="https://cal.com/mochi-labs" target="_blank" rel="noopener noreferrer">
               Book a Free Strategy Assessment <ArrowRight className="h-4 w-4" />
             </a>
           </Button>

@@ -20,7 +20,7 @@ const CTASection = () => {
               className="font-display font-semibold text-base px-8 gap-2"
               asChild
             >
-              <a href="mailto:team@mochiops.com?subject=Free%20Automation%20Audit%20Request">
+              <a href="https://cal.com/mochi-labs" target="_blank" rel="noopener noreferrer">
                 Book Your Free Audit <ArrowRight className="h-4 w-4" />
               </a>
             </Button>

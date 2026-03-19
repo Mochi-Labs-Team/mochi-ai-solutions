@@ -23,7 +23,7 @@ const Navbar = () => {
           </a>
         </div>
         <Button size="sm" className="font-display font-semibold" asChild>
-          <a href="mailto:team@mochiops.com?subject=Free%20Automation%20Audit%20Request">
+          <a href="https://cal.com/mochi-labs" target="_blank" rel="noopener noreferrer">
             Book a Free Audit
           </a>
         </Button>

@@ -12,7 +12,7 @@ const Footer = () => {
           team@mochiops.com
         </a>
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Project Mochi. All rights reserved.
+          © {new Date().getFullYear()} Mochi Labs. All rights reserved.
         </p>
       </div>
     </footer>

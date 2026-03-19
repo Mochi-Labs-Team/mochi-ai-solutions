@@ -50,7 +50,7 @@ const PainVsSolution = () => {
           {/* Solution */}
           <div className="bg-surface rounded-2xl border border-primary/20 shadow-elevated p-8">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 text-accent text-sm font-medium mb-6">
-              With Project Mochi
+              With Mochi Labs
             </div>
             <ul className="space-y-4">
               {solutions.map((point) => (

@@ -28,8 +28,8 @@ const Hero = () => {
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center mb-16">
           <Button size="lg" className="font-display font-semibold text-base px-8 gap-2" asChild>
-            <a href="mailto:team@mochiops.com?subject=Free%20Automation%20Audit%20Request">
-              Book a Free Automation Audit <ArrowRight className="h-4 w-4" />
+            <a href="https://cal.com/mochi-labs">
+              Book a Free Strategy Assessment <ArrowRight className="h-4 w-4" />
             </a>
           </Button>
           <Button size="lg" variant="outline" className="font-display font-semibold text-base px-8" asChild>

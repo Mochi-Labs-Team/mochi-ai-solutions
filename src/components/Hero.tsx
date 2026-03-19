@@ -23,7 +23,7 @@ const Hero = () => {
         </h1>
 
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
-          Project Mochi connects small and mid-sized businesses with AI-driven systems that automate scheduling, lead follow-up, invoicing, and more — layered on top of the tools you already use.
+          Mochi Labs connects small and mid-sized businesses with AI-driven systems that automate scheduling, lead follow-up, invoicing, and more — layered on top of the tools you already use.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center mb-16">

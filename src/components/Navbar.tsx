@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
         <Button size="sm" className="font-display font-semibold" asChild>
           <a href="https://cal.com/mochi-labs" target="_blank" rel="noopener noreferrer">
-            Book a Free Audit
+            Book a Free Strategy Assessment
           </a>
         </Button>
       </div>

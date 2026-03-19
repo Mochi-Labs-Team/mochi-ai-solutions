@@ -8,6 +8,9 @@ const Footer = () => {
           <img src={mochiLogo} alt="Project Mochi" className="h-7 w-7" />
           <span className="font-display text-lg font-bold text-foreground">Project Mochi</span>
         </div>
+        <a href="mailto:team@mochiops.com" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          team@mochiops.com
+        </a>
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} Project Mochi. All rights reserved.
         </p>

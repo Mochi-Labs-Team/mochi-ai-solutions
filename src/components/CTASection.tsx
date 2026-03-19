@@ -21,7 +21,7 @@ const CTASection = () => {
               asChild
             >
               <a href="https://cal.com/mochi-labs" target="_blank" rel="noopener noreferrer">
-                Book Your Free Audit <ArrowRight className="h-4 w-4" />
+                Book Your Free Strategy Assessment <ArrowRight className="h-4 w-4" />
               </a>
             </Button>
           </div>
